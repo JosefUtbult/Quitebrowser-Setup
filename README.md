@@ -12,8 +12,9 @@ sudo pip install adblock
 Clone into your config folder.
 
 ```bash
-git clone ~/.config/quitebrowser --recurse-submodules
+git clone git@github.com:JosefUtbult/Qutebrowser-Setup.git ~/.config/qutebrowser/ --recurse-submodules
 ```
+
 Now, install Quitebrowser
 
 ```bash
