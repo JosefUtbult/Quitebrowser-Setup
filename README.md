@@ -29,7 +29,8 @@ git clone git@github.com:JosefUtbult/Qutebrowser-Setup.git ~/.config/qutebrowser
 
 Remember to change your username.
 ```bash
-git clone git@github.com:JosefUtbult/Qutebrowser-Setup.git /mnt/c/Users/<Your Username>/AppData/qutebrowser/ --recurse-submodules
+git clone git@github.com:JosefUtbult/Qutebrowser-Setup.git ~/qutebrowser --recurse-submodules
+mv ~/qutebrowser /mnt/c/Users/<Your Username>/Application\ Data
 ```
 
 Now, install Quitebrowser
