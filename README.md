@@ -25,15 +25,6 @@ Clone into your config folder.
 git clone git@github.com:JosefUtbult/Qutebrowser-Setup.git ~/.config/qutebrowser/ --recurse-submodules
 ```
 
-**Windows (WSL)**
-
-Remember to change your username.
-```bash
-git clone git@github.com:JosefUtbult/Qutebrowser-Setup.git ~/qutebrowser --recurse-submodules
-mkdir /mnt/c/Users/<Your Username>/Application\ Data\qutebrowser
-mv ~/qutebrowser /mnt/c/Users/<Your Username>/Application\ Data\qutebrowser\config
-```
-
 Now, install Quitebrowser
 
 **Ubuntu**
@@ -41,6 +32,16 @@ Now, install Quitebrowser
 sudo apt install -y qutebrowser
 ```
 
-**Windows**
+**Windows (WSL)**
+In Windows, you will need to install Qutebrowser, remove the config folder and clone the config
 
 Download from [qutebrowser.org](https://qutebrowser.org/doc/install.html)
+
+
+Remember to change your username.
+```bash
+sudo rm -rf /mnt/c/Users/<Your Username>/Application\ Data/qutebrowser
+git clone git@github.com:JosefUtbult/Qutebrowser-Setup.git ~/qutebrowser --recurse-submodules
+mkdir /mnt/c/Users/<Your Username>/Application\ Data\qutebrowser
+mv ~/qutebrowser /mnt/c/Users/<Your Username>/Application\ Data\qutebrowser\config
+```
