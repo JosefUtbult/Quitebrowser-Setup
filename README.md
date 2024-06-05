@@ -41,7 +41,7 @@ Download from [qutebrowser.org](https://qutebrowser.org/doc/install.html)
 Remember to change your username.
 ```bash
 sudo rm -rf /mnt/c/Users/<Your Username>/Application\ Data/qutebrowser
-git clone git@github.com:JosefUtbult/Qutebrowser-Setup.git ~/qutebrowser --recurse-submodules
-mkdir /mnt/c/Users/<Your Username>/Application\ Data\qutebrowser
-mv ~/qutebrowser /mnt/c/Users/<Your Username>/Application\ Data\qutebrowser\config
+git clone git@github.com:JosefUtbult/Qutebrowser-Setup.git ~/qutebrowser --recurse-submodules                                                             
+mkdir '/mnt/c/Users/<Your Username>/Application Data/qutebrowser'
+mv ~/qutebrowser '/mnt/c/Users/<Your Username>/Application Data\qutebrowser\config'
 ```
